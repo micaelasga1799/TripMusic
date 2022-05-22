@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-g">
+    <meta name-"description" content="Entra e scopri le canzoni della Calabria!"> <!-- da inserire max 100 caratteri --> <!-- Non lo so se per ogni pagina deve essere diversa, l'articolo non lo specificava-->
+    <meta name-"robots" content="index, follow">
+    <meta name="author" content="Micaela Sgambetterra e Arianna Vinci">
+    <meta HTTP-EQUIV="keywords" content="...">  <!-- da inserire, vedi https://www.html.it/articoli/come-scegliere-le-giuste-keyword/ -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logotipo.png">  <!-- questa è l icona che compare nel tab -->
+    <link rel="stylesheet" type="text/css" href="css/style_canzoni.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!--da qui-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!--a qui, è il link bootstrap-->
+    <script src="https://kit.fontawesome.com/07cc4d2b01.js" crossorigin="anonymous"></script> <!--libreria per le icone-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--da qui-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet"> <!-- a qui, è il link font header-->
+    <title>TripMusic.it-Calabria</title> <!--da cambiare in ogni pagina-->
+  </head>
+  <body> <!-- se inserisco qui "class="container-fluid" mi sballa tutto, quindi lo inserisco a main-->
+    <header>
+      <section id="backgroundnav">
+        <a href="index.html" title="torna alla homepage"><img id="immaginelogo" src="images/logosito.png" alt="logo del sito con banda musicale"/></a> 
+        <i id="homeicon" class="fa-solid fa-user"></i>
+        <i id="homeicon" class="fa-solid fa-magnifying-glass"></i>
+        <nav>
+          <ul id="meno">
+            <li class="navlista"> <a class="navlink" href="canzoni_tradizionali.html">CANZONI TRADIZIONALI</a></li>
+            <li id="navartisti" class="navlista"> <a class="navlink" href="artisti.html">ARTISTI</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main id="contenuti" class="container-fluid"> 
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+             <li class="breadcrumb-item"><a href="canzoni_tradizionali.html">Canzoni tradizionali</a></li>
+            <li class="breadcrumb-item">Calabria</li>
+          </ol>
+      </nav>
+      <h1>CALABRIA</h1> 
+              <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI-->
+      <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
+          <div id="canzone" class="col-sm-4 col-md-2">
+            <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+                <div class="card-body">
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=pSi0dbNAN9M&ab_channel=Narinternational">Almeno tu nell'universo <br> Autore: Mia Martini</a>
+            </div>
+          </div>  
+        </div> 
+        <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ENQzVZHdYXs&ab_channel=DjElCiccioLatino">Bella Figghiola <br> Autore:<br> Mimmo Cavallaro</a>
+            </div>
+          </div> 
+        </div> 
+        <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title"  href="https://www.youtube.com/watch?v=ZgL5vcNzDnY&ab_channel=melgra69">Cambierò cambierai  <br> Autore:<br> Alex Damiani</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=dhF6leskxkQ&ab_channel=iCompany">Cantu di lu Marinaru  <br> Autore: <br> Mimmo Cavallaro</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ZFNSW7UYzCg&ab_channel=Mich">Ci Sono Gente Che Non Stanno Bene  <br> Autore: <br>Duff</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ss3NhlKY86M&ab_channel=WarnerMusicItaly">Cosa ti aspetti da me  <br> Autore: <br>Loredana Bertè</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=AgfJq2kA1As&ab_channel=Narinternational">Il mare d'inverno  <br> Autore:<br> Loredana Bertè</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=LBUF6kKVc-Q&ab_channel=AnielloSalatiello">Il sole non c'è più  <br> Autore: <br>I Bruzi</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tUcM6I1iZVk&ab_channel=Saveria-Topic">Ninna Nanna Malandrineddu  <br> Autore: <br>Saveria</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=XmMhYtK2OlU&ab_channel=ElcaSoundProduzioniDiscografiche">Oilì oilà  <br> Autore: <br>I Calabruzi</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=sX3mGMmLGnQ&ab_channel=AielloVEVO">ORA  <br> Autore: <br>Aiello</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=7oiomJxl6uw&ab_channel=ElCrespoVisionz">OTR / GENTE GUASTA  <br> Autore: <br> Gente Guasta</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=N2xnrRgE6l4&ab_channel=BrunoriSasVEVO">Per due che come noi  <br> Autore: <br> Brunori Sas</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tOApbnaxwy4&ab_channel=Mina4everbest">Quelli erano giorni  <br> Autore: <br> DALIDA</a>>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=QuTgHqZ9RXQ&ab_channel=Lisa-Topic">Sempre  <br> Autore: <br> Lisa</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=P6te-2Yoy2Y&ab_channel=Calabruzi-Topic">Si Ti Pigliavi A Mia  <br> Autore: <br> I Calabruzi</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=b5zCebMR3ik&ab_channel=Domez">Stilla chjara  <br> Autore: <br> Mimmo Cavallaro</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=lJ7dWCJk31s&ab_channel=LiraBattente">Stornelli Calabresi  <br> Autore: <br> LiraBattente</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=wuGPYvQjKac&ab_channel=SergioCammariereVEVO">Tutto Quello Che Un Uomo  <br> Autore: <br> Sergio Cammariere</a>
+            </div>
+          </div> 
+         </div>
+         <div id="canzone" class="col-sm-4 col-md-2">
+          <div class="card">
+              <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
+              <div class="card-body">
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=beUxE2J6nwI&ab_channel=ManitaDischi">Vorrei essere una foresta  <br> Autore: <br> PRAINO</a>
+            </div>
+          </div> 
+         </div>
+    </main>
+    <footer>
+      <section id="testofooter" class="row row-cols-sm-6 row-cols-md-3"/>
+        <section class="col-sm-6 col-md-3">
+          <p class="destra">
+            <a class="linkfooter" href="chisiamo.html">Chi siamo</a>
+          </p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="dicono_di_noi.html">Dicono di noi</a>
+          </p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>Privacy Policy</a><p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="tds.html">Termini di servizio</a>
+          </p>
+        </section>
+      </section>
+      <section class="row row-cols-sm-6 row-cols-md-3"> <!-- visto che sono solo 3 le colonne andrebbe col-4 ma, per motivi di disegn, inseriamo col-4-->
+      <section class="col-sm-6 col-md-3"> 
+          <p class="destra" class="lesspadding">Trovaci su:</p>
+          <a class="destra" href="https://www.facebook.com/MusicTripit-111419734906421"><i id="iconesocial" class="fa-brands fa-facebook-square"></i></a>  <!--dovea essere class=iconesocial, ma dando una classe non mi ascoltava le istruzioni-->
+          <a class="destra" href="https://www.instagram.com/musictrip.it/"><i id="iconesocial" class="fa-brands fa-instagram-square"></i></a> 
+        </section>
+        <section class="col-sm-6 col-md-3"> 
+          <p class="lesspadding"> Condivi su:</p>
+          <div id="footericon" class="column"> <!-- visto su https://techblog.sdstudio.top/it/widget-semplici-icone-di-condivisione-social-per-weebly/--> <!-- da fare: inseire l'url corretto-->
+            <a href="https://www.facebook.com/sharer/sharer.php?u=www.TripMusic.it" id="iconesocial2" class="box">
+              <div class="fa fa-facebook"></div>
+            </a>
+            <a href="https://twitter.com/home?status=www.TripMusic.it" id="iconesocial2" class="box">
+              <div class="fa fa-twitter"></div>
+            </a>
+            <a href="https://plus.google.com/share?url=www.TripMusic.it" id="iconesocial2"class="box">
+              <div class="fa fa-google-plus"></div>
+            </a>
+          </div>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <h9>Contattaci:</h9>
+          <p>info@gmail.com</p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="documentazione.html">Documentazione</a>
+          </p>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
+
+        
