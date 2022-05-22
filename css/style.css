@@ -198,7 +198,7 @@ footer {background-color: black !important;}
 
 
 /*ISTRUZIONI PER CELLULARI*/
-@media screen and (max-width: 600px) (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) (-webkit-max-device-pixel-ratio: 3) {
+@media screen (min-width: 200px)(max-width: 500px) (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) (-webkit-max-device-pixel-ratio: 3) {
 nav ul li {
 	display: inline-block;
 	padding-top: 0px;
@@ -268,6 +268,14 @@ nav ul li {
 	color: white;*/
 	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
 }
+header {
+	text-align: left;
+	background: #e0da48 url(../images/firstpagehome.jpg) no-repeat center;
+	background-size: 50% 50% !important; 
+	height: 10% !important;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 }
  
 
