@@ -111,13 +111,15 @@ main h1 {
 #regione {padding-bottom: 1.5%;}
 
 .nome {
-	padding-left: 30%  !important;
-	padding-right: 30%  !important;
+	/*padding-left: 30%  !important;
+	padding-right: 30%  !important;*/
 	font-size: 100% !important; /*perchè non mi considera come contenitore la box-card ?*/
 	color: black;
 } 
 
 .nome:hover {color: black;}
+
+.card-body {text-align: center;}
 
 .minore {
 	padding-left: 20%  !important;
@@ -178,7 +180,7 @@ footer {background-color: black !important;}
 
 
 /*ISTRUZIONI PER CELLULARI*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) (-webkit-max-device-pixel-ratio: 3) { 
 nav ul li {
 	display: inline-block;
 	padding-top: 0px;
