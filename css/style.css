@@ -222,12 +222,12 @@ nav ul li {
 #riduci {padding: 0px !important;}
 #payoff {
 	font-family: 'Oleo Script Swash Caps', cursive;
-	font-size: 7.7vw ;
+	font-size: 10.7vw ;
 	padding-left: 0px !important;
 	padding-top: 17vh;
 }
 #baseline {
-	font-size: 2.3vw;
+	font-size: 3.5vw;
 	padding-left: 0px !important;
 }
 #logotipo {
@@ -267,6 +267,22 @@ nav ul li {
 	padding-left: 2vw;
 	color: white;*/
 	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+header {
+	text-align: left;
+	background: #e0da48 url(../images/chitarra.jpg) no-repeat center;
+	background-size: 100% 100%; 
+	height: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#backgroundnav { 
+  width: 100%;
+  height: 13vh;
+position: relative;
+}
+#immaginelogo { 
+padding-top: 2%;
+padding-bottom: 2%;
 }
 }
  
