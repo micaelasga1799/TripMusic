@@ -152,9 +152,10 @@ nav ul li {
 	padding-top: 0px;
 	padding-bottom: 0px ; /*aggiusta in index*/
 	padding-left: 3%;
-	font-size: 3.5vw;
-	margin: auto;*/
-} 	
+	padding-right: 0px;
+	font-size: 3.2vw;
+	margin: auto;
+} 
 #homeicon {
 	font-size: 3vw;
 	padding: 2px 3px;

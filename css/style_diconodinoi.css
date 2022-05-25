@@ -143,3 +143,55 @@ footer {background-color: white !important;}
     margin-block-end: 0px !important;
     margin-inline-start: 5% !important;
     margin-inline-end: 0px;}
+
+/*ISTRUZIONI PER CELLULARI*/
+@media screen and (max-width: 600px) (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) (-webkit-max-device-pixel-ratio: 3) { 
+nav ul li {
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px ; /*aggiusta in index*/
+	padding-left: 3%;
+	padding-right: 0px;
+	font-size: 3.2vw;
+	margin: auto;
+} 
+#homeicon {
+	font-size: 3vw;
+	padding: 2px 3px;
+}
+#immaginelogo { 
+	padding: 0%; 
+	float: left;
+	max-width: 16% auto !important;
+	height: 100%;
+}
+#meno {margin-top: 20px;}
+.destra {margin-inline-start: 0px !important;}
+#iconesocial {
+	padding-left: 1vw;
+	color: white;*/
+	width: 4%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+#homeicon {
+	font-size: 4vw;
+	padding: 2px 3px;
+}
+
+#btn {padding-bottom: 1%;}
+ 	
+.destra {margin-inline-start: 0px !important;}
+#iconesocial {
+	padding-left: 2vw;
+	color: white;*/
+	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+#backgroundnav { 
+  width: 100%;
+  height: 13vh;
+position: relative;
+}
+#immaginelogo { 
+padding-top: 2%;
+padding-bottom: 2%;
+}
+}
