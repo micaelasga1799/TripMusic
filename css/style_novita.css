@@ -9,14 +9,14 @@ html, body {
 
 header {
 	text-align: left;
-	background-color: #e0da48;
+	background-color:  #ff8f84;
 	background-size:cover;
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	background-color:  #e0da48 !important;
+	background-color:   #ff8f84 !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 	
 }
@@ -76,7 +76,7 @@ nav ul li {
 
 
 .breadcrumb {
-	background-color: #e0da48 !important;
+	background-color: #ff8f84 !important;
 	margin-bottom: 0px !important;
 }
 
