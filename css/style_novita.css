@@ -9,19 +9,19 @@ html, body {
 
 header {
 	text-align: left;
-	background-color: #e0da48;
+	background-color:  #ff8f84 !important;
 	background-size:cover;
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	background-color:  #e0da48 !important;
+	background-color:   #ff8f84 !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 	
 }
 
-#blu {background-color:  #32abda !important;}
+
 
 #homeicon {
 	font-size: 1.5vw;
@@ -35,10 +35,10 @@ nav ul li {
 	padding-top: 0px;
 	padding-bottom: 0px ; /*aggiusta in index*/
 	padding-left: 3%;
-	padding-right: 4%;
+	padding-right: 2%;
 	font-size: 2vw;
 	margin: auto;
-} 			
+} 	 	
 
 #meno {    margin-block-end: 0px !important;
     margin-inline-start: 0px !important;
@@ -77,7 +77,7 @@ nav ul li {
 
 
 .breadcrumb {
-	background-color: #e0da48 !important;
+	background-color:  #ff8f84 !important;
 	margin-bottom: 0px !important;
 }
 
@@ -104,12 +104,25 @@ main h1 {
     margin-right: 3%;
 }
 
-#regioni {   
+main h2 {
+	margin-top: 2em !important;
+	padding-left: 2em !important;}
+
+h2 {    margin-block-start: 2em !important;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+margin-top: 2em !important;}
+
+#artisti {   
 	margin-right: 3%;
     margin-left: 3%;
+    margin-bottom: 2em !important;
 }
 
-#regione {padding-bottom: 1.5%;}
+#canzoni {margin-bottom: 2em !important;}
+
+#artista {padding-bottom: 1.5%;}
 
 .nome {
 	/*padding-left: 30%  !important;
@@ -119,8 +132,6 @@ main h1 {
 } 
 
 .nome:hover {color: black;}
-
-.card-body {text-align: center;}
 
 .minore {
 	padding-left: 20%  !important;
@@ -133,6 +144,46 @@ main h1 {
 
 .card-img-top {padding: 3%;
 padding-top: 5%;
+}
+
+#canzoni {   
+	margin-right: 3%;
+    margin-left: 3%;
+}
+
+#canzone {padding-bottom: 1.5%; 
+          }
+
+.card-body {text-align: center;}
+
+.nome {
+
+	font-size: 100% !important; /*perchè non mi considera come contenitore la box-card ?*/
+	color: black;
+} 
+
+.nome:hover {color: black;}
+
+.minore {
+	padding-left: 20%  !important;
+	padding-right: 20%  !important;
+	font-size: 80% !important;
+	color: black;
+} 
+
+.minore:hover {color: black;}
+
+.card {background-color: #654321 !important;}
+
+.card-body {
+	background-color: white !important;
+	margin: 5% !important;
+	border-radius: 10px;
+}
+
+.card-img-top {padding: 0px;
+	padding-left: 1.5% !important;
+	padding-right: 1.5% !important;
 }
 
 footer {
@@ -177,56 +228,3 @@ footer {background-color: black !important;}
     margin-block-end: 0px !important;
     margin-inline-start: 5% !important;
     margin-inline-end: 0px;}
-
-
-
-/*ISTRUZIONI PER CELLULARI*/
-@media screen and (max-width: 600px) (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) (-webkit-max-device-pixel-ratio: 3) { 
-nav ul li {
-	display: inline-block;
-	padding-top: 0px;
-	padding-bottom: 0px ; /*aggiusta in index*/
-	padding-left: 3%;
-	font-size: 3.5vw;
-	margin: auto;*/
-} 	
-#homeicon {
-	font-size: 3vw;
-	padding: 2px 3px;
-}
-#immaginelogo { 
-	padding: 0%; 
-	float: left;
-	max-width: 16% auto !important;
-	height: 100%;
-}
-#meno {margin-top: 20px;}
-.destra {margin-inline-start: 0px !important;}
-#iconesocial {
-	padding-left: 1vw;
-	color: white;*/
-	width: 4%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
-}
-#homeicon {
-	font-size: 4vw;
-	padding: 2px 3px;
-}
-
-#btn {padding-bottom: 1%;}
- 	
-.destra {margin-inline-start: 0px !important;}
-#iconesocial {
-	padding-left: 2vw;
-	color: white;*/
-	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
-}
-#backgroundnav { 
-  width: 100%;
-  height: 13vh;
-position: relative;
-}
-#immaginelogo { 
-padding-top: 2%;
-padding-bottom: 2%;
-}
-}

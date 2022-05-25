@@ -9,14 +9,14 @@ html, body {
 
 header {
 	text-align: left;
-	background-color: #e0da48;
+	background-color: #32abda;
 	background-size:cover;
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	background-color:  #e0da48 !important;
+	background-color: #32abda !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
@@ -32,10 +32,10 @@ nav ul li {
 	padding-top: 0px;
 	padding-bottom: 0px ; /*aggiusta in index*/
 	padding-left: 3%;
+	padding-right: 4%;
 	font-size: 2vw;
 	margin: auto;
-
-} 	
+} 		
 
 #meno {    margin-block-end: 0px !important;
     margin-inline-start: 0px !important;
@@ -43,7 +43,6 @@ nav ul li {
     padding-inline-start: 0px !important;
 }
 
-#navartisti {padding-right: 3em !important;}
 
 
 .navlink {
@@ -74,11 +73,12 @@ nav ul li {
 }
 
 
-#contenuti {background: #e0da48 url(../images/artisti.jpg);
-	background-attachment:fixed;
-}
+#contenuti {background: #32abda url(../images/artisti.jpg);
+background-attachment:fixed;}
 
-.breadcrumb {background-color: #e0da48 !important;
+
+
+.breadcrumb {background-color: #32abda !important;
 }
 
 .breadcrumb-item {color: black !important;}
